@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",()=>{const forms=document.querySelectorAll("form");forms.forEach(f=>f.addEventListener("submit",()=>{const b=f.querySelector("button");if(b&&f.action.endsWith("/quote")){b.disabled=true;b.textContent="OPENING WHATSAPP…"}}));});
